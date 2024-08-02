@@ -1,0 +1,22 @@
+From 836504a4e630190e25e0c5bbce76e0b3b4c0f75c Mon Sep 17 00:00:00 2001
+From: Jean Flores <jeanpauloflores@gmail.com>
+Date: Fri, 2 Aug 2024 20:07:03 -0300
+Subject: [PATCH] com
+
+
+diff --git a/proxy/src/main/java/net/md_5/bungee/BungeeCord.java b/proxy/src/main/java/net/md_5/bungee/BungeeCord.java
+index 9b93d2c3..73567260 100644
+--- a/proxy/src/main/java/net/md_5/bungee/BungeeCord.java
++++ b/proxy/src/main/java/net/md_5/bungee/BungeeCord.java
+@@ -381,7 +381,7 @@ public class BungeeCord extends ProxyServer
+                         if ( future.isSuccess() )
+                         {
+                             listeners.add( future.channel() );
+-                            getLogger().log( Level.INFO, "Started query on {0}", future.channel().localAddress() );
++                            getLogger().log( Level.INFO, "Started quersy on {0}", future.channel().localAddress() );
+                         } else
+                         {
+                             getLogger().log( Level.WARNING, "Could not bind to host " + info.getSocketAddress(), future.cause() );
+-- 
+2.45.1.windows.1
+
