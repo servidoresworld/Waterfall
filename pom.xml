@@ -16,9 +16,9 @@
         <module>Waterfall-Proxy</module>
     </modules>
 
-    <build>
+    <!--<build>
         <defaultGoal>clean install</defaultGoal>
-    </build>
+    </build>-->
 
     <distributionManagement>
         <repository>
